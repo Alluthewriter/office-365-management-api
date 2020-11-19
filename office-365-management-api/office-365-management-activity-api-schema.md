@@ -11,7 +11,7 @@ localization_priority: Priority
 
 # Office 365 Management Activity API schema
 
-The Office 365 Management Activity API schema is provided as a data service in  two layers:
+The Office 365 Management Activity API schema is provided as a data service in two layers:
 
 - **Common schema**. The interface to access core Office 365 auditing concepts such as Record Type, Creation Time, User Type, and Action as well as to provide core dimensions (such as User ID), location specifics (such as Client IP address), and product-specific properties (such as Object ID). It establishes consistent and uniform views for users to extract all Office 365 audit data in a few top level views with the appropriate parameters, and provides a fixed schema for all the data sources, which significantly reduces the cost of learning. Common schema is sourced from product data that is owned by each product team, such as Exchange, SharePoint, Azure Active Directory, Yammer, and OneDrive for Business. The Object ID field can be extended by product teams to add product specific properties.
 
